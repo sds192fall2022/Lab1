@@ -1,0 +1,11 @@
+---
+title: "SDS 192"
+author: "Lindsay Poirier"
+date: "January 27, 2022"
+output:
+  sds::class_notes
+---
+
+1. ====DELETE THIS TEXT AND ADD YOUR NAME HERE.===
+2. Save the document by clicking the Save button above. 
+3. Return to Getting Started instructions to learn how to commit and push you code. 
