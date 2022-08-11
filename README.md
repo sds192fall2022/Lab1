@@ -88,21 +88,19 @@ use_git_config(user.name = "USERNAMEHERE", user.email = "EMAILHERE")
 
 Here I will list common issues that folks faced at different steps of getting our course infrastructure set-up and how they fixed them:
 
-### Step 3
-
-#### Every time I try to open RStudio, I'm being prompted to reinstall RStudio.
+### Every time I try to open RStudio, I'm being prompted to reinstall RStudio.
 
 This was happening for a few students on Windows machines. The reason is that you are clicking the file to install/RStudio, rather than the file to open the application. See if you can find the icon for RStudio when you open C:/ProgramFiles. The icon should look like this:
 
 ![RStudio Icon](images/rstudio.png)
 
-#### I'm seeing this image when I try to open RStudio:
+### I'm seeing this image when I try to open RStudio:
 
 ![RStudio Icon](images/error.png)
 
 This means that you likely installed RStudio but not R. Check back in on the instructions in Step 2 to make sure that you install R **and** RStudio. 
 
-#### When I try to open RStudio, I’m not seeing the screen that appears in David Keyes's video in step 4. 
+### When I try to open RStudio, I’m not seeing the screen that appears in David Keyes's video in step 4. 
 
 You are probably trying to open R rather than RStudio. Make sure you click on this icon:
 
@@ -112,16 +110,11 @@ You are probably trying to open R rather than RStudio. Make sure you click on th
 
 ![R Icon](images/ricon.png)
 
-
-### Step 4
-
-#### When I type in `which git`, I'm getting an error message that says that 'which' is not recognized. 
+### When I type in `which git`, I'm getting an error message that says that 'which' is not recognized. 
 
 David Keyes was recording this video on a Mac. If which is not recognized, it's likely because you are on a Windows machine. Try typing `where git` instead of `which git`. 
 
-### Step 5
-
-#### I don’t have git installed. 
+### I don’t have git installed. 
 
 You should follow the steps here to install git: https://happygitwithr.com/install-git.html
 Be sure to follow the instructions for your specific operating system. After you're done you can confirm that it’s installed by typing:
@@ -129,17 +122,15 @@ Be sure to follow the instructions for your specific operating system. After you
 `where git` into the Terminal if you are on Windows
 `which git` into the Terminal if you are on MacOS
 
-### Step 7
-
-#### I’m getting an error message when trying to install the "usethis" package. 
+### I’m getting an error message when trying to install the "usethis" package. 
 
 Try copying and pasting the `install.packages("usethis")` code into your console first and click enter. You will be asked "Do you want to install from sources the packages which need compilation? (Yes/no/cancel)", and you can type 'yes'. After that, a bunch of lines of code will run with red font. Once this is done, copy and paste the `library(usethis)` line into your Console and click enter. 
 
-#### I’m getting an error message that rlang is not installed. 
+### I’m getting an error message that rlang is not installed. 
 
 In your console type `install.packages("rlang")`. Then re-try Step 7. 
 
-#### I'm getting the following error when I try to set my git credentials:
+### I'm getting the following error when I try to set my git credentials:
 
 ```
 Error in new_git_error("git_error", args = args, stdout = out, status = attr(out,  :
@@ -152,15 +143,11 @@ Switch to the Terminal tab in the bottom left hand corner of RStudio and enter t
 
 Then try again. 
 
-### Step 7/10, etc. 
-
-#### I'm getting an error message that RStudio can't find Git.
+### I'm getting an error message that RStudio can't find Git.
 
 Following the instructions at this link: https://happygitwithr.com/rstudio-see-git to tell RStudio where to find git. 
 
-### Step 10
-
-I'm getting the following error:
+### I'm getting the following error:
 
 ```
 Error in new_git_error("git_error", args = args, stdout = out, status = attr(out,  :
@@ -179,9 +166,7 @@ This will open your config file. Check to make sure you don't have extra quotati
 
 ![RStudio Icon](images/config_file.png)
 
-### Step 13
-
-#### When I try to create a new project, I'm getting the error:
+### When I try to create a new project, I'm getting the error:
 
 ```
 remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
@@ -203,5 +188,3 @@ You'll see the following message:
 ```
 
 Click 2. Then enter the personal access token you created in step 9. You should be able to create a project after this. 
-
-
