@@ -1,7 +1,7 @@
 ---
 title: "SDS192 Lab 1"
 output:
-  sds::class_notes
+  sds::classnotes
 ---
 
 1. ====DELETE THIS TEXT AND ADD YOUR NAME HERE.===
