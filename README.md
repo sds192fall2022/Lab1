@@ -83,6 +83,15 @@ use_git_config(user.name = "USERNAMEHERE", user.email = "EMAILHERE")
 
 **CONGRATULATIONS! You've completed our course infrastructure set-up!** 
 
+
+## Assessment
+
+You will be evaluated on the completion of your lab.
+
+In this assignment, the following standards will be assessed: 
+
+GITHUB
+
 ---
 ## Troubleshooting Common Issues
 
