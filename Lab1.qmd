@@ -1,5 +1,6 @@
 ---
 title: "SDS192 Lab 1"
+author: "WRITE YOUR NAME HERE"
 output:
   sds::classnotes
 ---
