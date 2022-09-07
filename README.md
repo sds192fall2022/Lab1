@@ -66,7 +66,7 @@ use_git_config(user.name = "USERNAMEHERE", user.email = "EMAILHERE")
 
 10. Click <a href="https://classroom.github.com/a/84Ddr9r2">this link</a> to accept this assignment in our GitHub classroom. Then a private repository (repo) will be automatically created for you. It might take a few minutes. 
 
-11. Once the repo is created, copy and paste the "Clone" URL from the repo that was just created to your clipboard. It should look something like https://github.com/sds192fall2022/Lab1/YOURUSERNAME.git
+11. Once the repo is created, copy and paste the "Clone" URL from the repo that was just created to your clipboard. It should look something like https://github.com/sds192fall2022/Lab1-YOURUSERNAME.git
 
 12. Create a project in RStudio from this GitHub repo by following the instructions starting at 26 seconds of this video:
 
