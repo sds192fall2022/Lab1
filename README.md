@@ -16,7 +16,7 @@ On the other hand, some of you might breeze through this, having certain compone
 
 ## Getting started
 
-Below are instructions for setting up our course environment. It's important that you follow them in order and do exactly as is described in the videos. If you have any questions, reach out to me and the data assistant. 
+Below are instructions for setting up our course environment. It's important that you follow them in order and do exactly as is described in the videos. If you have any questions, reach out to me. 
 
 **Don't worry if you don't know what certain terms mean at this point. We'll be going over things like what it means to commit code a little later in the semester.** I just believe it'll be easier to follow along with me in learning those things if you can follow along on your own computers. That's why we're taking this step to get things up and running so early in the semester. 
 
