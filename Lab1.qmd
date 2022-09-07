@@ -2,7 +2,7 @@
 title: "SDS192 Lab 1"
 author: "WRITE YOUR NAME HERE"
 output:
-  sds::classnotes
+  html_document
 ---
 
 1. ====DELETE THIS TEXT AND ADD YOUR NAME HERE.===
