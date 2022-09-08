@@ -36,6 +36,8 @@ Below are instructions for setting up our course environment. It's important tha
 
 4.2 If git is not installed, follow the instructions in [chapter 6](https://happygitwithr.com/install-git.html) of *Happy Git and GitHub for the useR* to install git.
 
+**Espeically, if you use Windows**, please first go [here](https://gitforwindows.org/) to download Git. Then install Git by launching the installer after it downloads. You can accept all the defaults during installation. Next, in RStudio, click Tools > Global Options > Terminal, RStudio should automatically detect the presence of Git Bash; you want to see "Git Bash" in the "New terminals open with ..." dropdown menu. Then click Apply. It will ask you to restart RStudio, click Yes. Then in RStudio, click the "Terminal" tab, create a new terminal. Then you should access Git Bash in RStudio. Then go back to Step 4 to ensure git is installed.
+
 5. In the last step you clicked the 'Terminal' tab at the bottom of your screen. Go to that same section of your screen and click the 'Console' tab.
 
 6. If you are configuring git for the first time (most of you will be), copy and paste the following into your console:
