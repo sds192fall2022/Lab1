@@ -201,3 +201,11 @@ You'll see the following message:
 ```
 
 Click 2. Then enter the personal access token you created in step 9. You should be able to create a project after this. 
+
+### When I try to create a new project via File>New Project>Version Control>Git, I'm getting the error: Git was not detected on the system path.
+
+This means that the git path (/usr/bin/git) set under global options was not valid. To fix this, please follow these steps:
+
+(1) Enter git --exec-path in your computer terminal window as the screenshot below shows. It will give you a path (mine is /Library/Developer/CommandLineTools/usr/libexec/git-core; yours may be different). Then in RStudio, click Tools>Global Options>Git/SVN, in the section of Git executable, Browse in your computer to find the path: /Library/Developer/CommandLineTools/usr/libexec/git-core/git Then click Apply. Then you can cancel this window.
+
+(2) The next step is in RStudio, click Tools>Project Options>Git/SVN, select Git for Version control system as the screenshot below shows. This step needs to be done in a project environment; otherwise it won't show you Project Options.
