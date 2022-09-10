@@ -208,8 +208,12 @@ This means that the git path (/usr/bin/git) set under global options was not val
 
 (1) Enter git --exec-path in your computer terminal window as the screenshot below shows. It will give you a path (mine is /Library/Developer/CommandLineTools/usr/libexec/git-core; yours may be different). 
 
-![RStudio Icon](images/config_file.png)
+![exec-path](images/exec-path.png)
 
 (2) Then in RStudio, click Tools>Global Options>Git/SVN, in the section of Git executable, Browse in your computer to find the path: /Library/Developer/CommandLineTools/usr/libexec/git-core/git Then click Apply. Then you can cancel this window.
 
+![set the git path in RStudio](images/set the git path in RStudio.png)
+
 (3) The next step is in RStudio, click Tools>Project Options>Git/SVN, select Git for Version control system as the screenshot below shows. This step needs to be done in a project environment; otherwise it won't show you Project Options.
+
+![configure git in the project options](images/configure git in the project options.png)
