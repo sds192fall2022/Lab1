@@ -216,4 +216,4 @@ This means that the git path (/usr/bin/git) set under global options was not val
 
 (3) The next step is in RStudio, click Tools>Project Options>Git/SVN, select Git for Version control system as the screenshot below shows. This step needs to be done in a project environment; otherwise it won't show you Project Options.
 
-![exec-path](images/exec-path.png)
+![configure git in the project options](images/configure git in the project options.png)
